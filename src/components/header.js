@@ -6,21 +6,16 @@ export default function AppHeader(){
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home"><img src="/home/rawan/Desktop/500_test/500website/500test_task/src/components/Icons/Vector.png"/></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src='https://github.com/RawanAli1993/500test_task/blob/master/src/components/Icons/Vector.png?raw=true' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">Ab</Nav.Link>
-              <Nav.Link href="#services">Services</Nav.Link>
-              <Nav.Link href="#team">Team</Nav.Link>
-              <Nav.Link href="#blog">Blog</Nav.Link>
-              <Nav.Link href="#review">Review</Nav.Link>
+              <Nav.Link href="#home">Пункт 1<img src='https://github.com/RawanAli1993/500test_task/blob/master/src/components/Icons/Vector%20(Stroke).png?raw=true' width='18' height='18'/></Nav.Link>
+              <Nav.Link href="#about">Пункт 2</Nav.Link>
+              <Nav.Link href="#services">Пункт 3</Nav.Link>
+              <Nav.Link href="#team">Пункт 4</Nav.Link>
+              <Nav.Link href="#blog">Пункт 5</Nav.Link>
 
-            
-
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
 
 
             
